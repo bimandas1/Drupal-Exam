@@ -1,0 +1,22 @@
+uuid: f23f8d89-a160-4b82-ac77-a9440df0efbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: product_item_url_pattern
+label: 'Product item url pattern'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type]/[node:field_name]'
+selection_criteria:
+  f16af013-bffd-478b-9c1c-c310083a7884:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: f16af013-bffd-478b-9c1c-c310083a7884
+    context_mapping:
+      node: node
+    bundles:
+      ecommerce_item: ecommerce_item
+selection_logic: and
+weight: -5
+relationships: {  }

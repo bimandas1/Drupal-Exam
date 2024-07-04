@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 910fcc4f-c5d0-408a-b0f5-d6362be79f47
+name: Ecommerce
+mail: prozectroom@gmail.com
+slogan: ''
+page:
+  403: /node/3
+  404: /node/4
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

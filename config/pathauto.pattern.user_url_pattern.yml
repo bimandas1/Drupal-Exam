@@ -1,0 +1,14 @@
+uuid: b18e719b-a078-486a-b86f-9a6eb497faca
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_url_pattern
+label: 'User url pattern'
+type: 'canonical_entities:user'
+pattern: '/user/[user:account-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

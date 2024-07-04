@@ -1,0 +1,23 @@
+uuid: 494da67d-73b0-4063-9eff-d0fe7711b66b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.ecommerce_item
+id: node.ecommerce_item.field_price
+field_name: field_price
+entity_type: node
+bundle: ecommerce_item
+label: Price
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10000000
+  prefix: 'Rs. '
+  suffix: ''
+field_type: integer

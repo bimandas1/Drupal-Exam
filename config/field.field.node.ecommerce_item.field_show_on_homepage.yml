@@ -1,0 +1,21 @@
+uuid: 1a6e7519-4969-4ef6-93af-1b6c5e400849
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_on_homepage
+    - node.type.ecommerce_item
+id: node.ecommerce_item.field_show_on_homepage
+field_name: field_show_on_homepage
+entity_type: node
+bundle: ecommerce_item
+label: 'Show on Homepage'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

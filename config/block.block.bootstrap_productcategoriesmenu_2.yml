@@ -1,0 +1,25 @@
+uuid: 1b96a74e-58fa-4b90-8c6c-d90dc7516ae1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.product-categories-menu
+  module:
+    - system
+  theme:
+    - bootstrap
+id: bootstrap_productcategoriesmenu_2
+theme: bootstrap
+region: header
+weight: -7
+provider: null
+plugin: 'system_menu_block:product-categories-menu'
+settings:
+  id: 'system_menu_block:product-categories-menu'
+  label: 'Product Categories Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
