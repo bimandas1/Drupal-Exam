@@ -1,0 +1,21 @@
+uuid: d5772843-5bd7-479d-826b-4b6d664c59ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.ecommerce_item
+id: node.ecommerce_item.field_description
+field_name: field_description
+entity_type: node
+bundle: ecommerce_item
+label: Description
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Sporting a host of exciting features, this item takes you to a whole new level.'
+default_value_callback: ''
+settings: {  }
+field_type: string

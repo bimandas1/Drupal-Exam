@@ -1,0 +1,8 @@
+uuid: ccd35dcf-57f0-4501-889d-c5989f48143d
+langcode: en
+status: true
+dependencies: {  }
+id: product-categories-menu
+label: 'Product Categories Menu'
+description: ''
+locked: false

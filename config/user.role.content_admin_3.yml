@@ -1,0 +1,14 @@
+uuid: e83340b8-c9b3-4ce6-ade2-c96539194d2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ecommerce_item
+  module:
+    - node
+id: content_admin_3
+label: 'Content admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'create ecommerce_item content'

@@ -1,0 +1,9 @@
+uuid: a79e904c-fb72-45ff-bbe5-e84454b2db75
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Categories of items'
+weight: 0
+new_revision: false

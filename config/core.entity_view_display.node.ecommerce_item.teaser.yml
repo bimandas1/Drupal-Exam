@@ -1,0 +1,32 @@
+uuid: d3bc937b-fea3-4628-81b2-8583ec8f3b04
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ecommerce_item.field_category
+    - field.field.node.ecommerce_item.field_description
+    - field.field.node.ecommerce_item.field_name
+    - field.field.node.ecommerce_item.field_price
+    - field.field.node.ecommerce_item.field_product_image
+    - field.field.node.ecommerce_item.field_show_on_homepage
+    - node.type.ecommerce_item
+  module:
+    - user
+id: node.ecommerce_item.teaser
+targetEntityType: node
+bundle: ecommerce_item
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_category: true
+  field_description: true
+  field_name: true
+  field_price: true
+  field_product_image: true
+  field_show_on_homepage: true
